@@ -1,0 +1,117 @@
+<div style="padding: 50px;" fxLayout fxLayoutGap="50px" fxHide.lt-md>
+  <div>
+    <app-product-list></app-product-list>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img src="\assets\Images\Products\hepalivds.jpg" />
+        </section>
+        <section>
+          <H1> Hepa-Liv-Ds Syrup</H1>
+          <b>
+            A Desired Strength formula enriched with scientifically validated
+            Natural Botanical Extracts,<br />
+            which Contributes to improve distributed Liver Functions <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Improve Appetite, digestion and Metabolism</li>
+            <li>
+              <b
+                >Stevia-it is used as non-nutritive sweetener and herbal
+                supplement
+              </b>
+            </li>
+            <li>Acts a lipid Regulator</li>
+            <li>Anti-Oxidant & detoxifier</li>
+          </ul>
+          <h3><b> Indications:</b></h3>
+          <ul>
+            <li>Lack of Appetite (anorexia)</li>
+            <li>Viral Hepatitis (Acute and Chronic)</li>
+            <li>Disturbed Liver Function</li>
+            <li>Hepatoxicity induced by alcohol</li>
+          </ul>
+          <h3><b> Presentation:</b></h3>
+          <ul>
+            <li>200ml</li>
+            <li>450ml</li>
+          </ul>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div fxHide.gt-md>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card class="mob" fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img
+            style="width: 200px; height: 200px;"
+            src="\assets\Images\Products\hepalivds.jpg"
+          />
+        </section>
+        <br /><br />
+        <section>
+          <H1> Hepa-Liv-Ds Syrup</H1>
+          <b>
+            A Desired Strength formula enriched with scientifically validated
+            Natural Botanical Extracts, which Contributes to improve distributed
+            Liver Functions <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Improve Appetite, digestion and Metabolism</li>
+            <li>
+              Stevia-it is used as non-nutritive sweetener and herbal supplement
+            </li>
+            <li>Acts a lipid Regulator</li>
+            <li>Anti-Oxidant & detoxifier</li>
+          </ul>
+          <h3><b> Indications:</b></h3>
+          <ul>
+            <li>Lack of Appetite (anorexia)</li>
+            <li>Viral Hepatitis (Acute and Chronic)</li>
+            <li>Disturbed Liver Function</li>
+            <li>Hepatoxicity induced by alcohol</li>
+          </ul>
+          <h3><b> Presentation:</b></h3>
+          <ul>
+            <li>200ml</li>
+            <li>450ml</li>
+          </ul>
+        </section>
+
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <app-product-list></app-product-list>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

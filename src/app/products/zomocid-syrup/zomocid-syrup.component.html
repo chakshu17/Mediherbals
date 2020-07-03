@@ -1,0 +1,107 @@
+<div style="padding: 50px;" fxLayout fxLayoutGap="50px" fxHide.lt-md>
+  <div>
+    <app-product-list></app-product-list>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img src="\assets\Images\Products\zymocid.jpg" />
+        </section>
+        <section>
+          <H1> ZOMOCID SYRUP</H1>
+          <b>When Digestive System and Working disturbs them. </b><br /><br />
+          <h3><b> Effective in: </b></h3>
+          <ul>
+            <li>Dyspeptic Condition</li>
+            <li>Drug Induced Ulcers</li>
+            <li>Acute Gastritis</li>
+            <li>Stress Ulcers</li>
+            <li>Recurring Reflux Esophagitis</li>
+            <li>Recurrent Episodes of Peptic Ulcers</li>
+          </ul>
+          <h3><b> Dosage:</b></h3>
+          <ul>
+            <li><b>Adults:</b> 2-3 Tsp 3 times a day</li>
+            <li>
+              Children: 3-6 years: ½ tsp 2 times a day<br />7-12 years: ½ tsp 2
+              times a day
+            </li>
+          </ul>
+          Or as directed by Physician<br />
+
+          <h3><b>Presentation: </b></h3>
+          <li>150ml</li>
+          <li>450ml</li>
+          <section
+            style="padding: 30px;"
+            fxLayoutAlign="center"
+            fxLayoutGap="30px"
+          >
+            <button mat-raised-button color="primary" (click)="onclick()">
+              Add To Cart
+            </button>
+          </section>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div fxHide.gt-md>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card class="mob" fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img
+            style="width: 200px; height: 200px;"
+            src="\assets\Images\Products\zymocid.jpg"
+          />
+        </section>
+        <br /><br />
+        <section>
+          <H1> ZOMOCID SYRUP</H1>
+          <b>When Digestive System and Working disturbs them. </b><br /><br />
+          <h3><b> Effective in: </b></h3>
+          <ul>
+            <li>Dyspeptic Condition</li>
+            <li>Drug Induced Ulcers</li>
+            <li>Acute Gastritis</li>
+            <li>Stress Ulcers</li>
+            <li>Recurring Reflux Esophagitis</li>
+            <li>Recurrent Episodes of Peptic Ulcers</li>
+          </ul>
+          <h3><b> Dosage:</b></h3>
+          <ul>
+            <li><b>Adults:</b> 2-3 Tsp 3 times a day</li>
+            <li>
+              Children: 3-6 years: ½ tsp 2 times a day<br />7-12 years: ½ tsp 2
+              times a day
+            </li>
+          </ul>
+          Or as directed by Physician<br />
+
+          <h3><b>Presentation: </b></h3>
+          <li>150ml</li>
+          <li>450ml</li>
+          <section
+            style="padding: 30px;"
+            fxLayoutAlign="center"
+            fxLayoutGap="30px"
+          >
+            <button mat-raised-button color="primary" (click)="onclick()">
+              Add To Cart
+            </button>
+          </section>
+          <section
+            style="padding: 30px;"
+            fxLayoutAlign="center"
+            fxLayoutGap="30px"
+          >
+            <app-product-list></app-product-list>
+          </section>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

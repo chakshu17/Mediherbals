@@ -1,0 +1,107 @@
+<div style="padding: 50px;" fxLayout fxLayoutGap="50px" fxHide.lt-md>
+  <div>
+    <app-product-list></app-product-list>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img src="\assets\Images\Products\navedan.jpg" />
+        </section>
+        <section>
+          <H1>Prostocare Capsule</H1>
+          <b>
+            For Better Prostate Health <br />
+            Help your prostate and improve your life
+            <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Reduces Residual urine volume</li>
+            <li>Improve Tone of Urinary Bladder</li>
+            <li>Relieves obstruction & Irritative symptoms</li>
+            <li>Improves Quality of Life.</li>
+          </ul>
+          <h3><b>Dosage:</b></h3>
+          <ul>
+            <li>1-2 Capsules 2 times a day</li>
+          </ul>
+          Or Directed by physician
+          <h3><b>Presentation: </b></h3>
+          <ul>
+            <li>(6 x 10) Blister pack</li>
+            <li>60 caps Container pack</li>
+            <li>1000 Jar</li>
+          </ul>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div fxHide.gt-md>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card class="mob" fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img
+            style="width: 200px; height: 200px;"
+            src="\assets\Images\Products\navedan.jpg"
+          />
+        </section>
+        <br /><br />
+        <section>
+          <H1>Prostocare Capsule</H1>
+          <b>
+            For Better Prostate Health <br />
+            Help your prostate and improve your life
+            <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Reduces Residual urine volume</li>
+            <li>Improve Tone of Urinary Bladder</li>
+            <li>Relieves obstruction & Irritative symptoms</li>
+            <li>Improves Quality of Life.</li>
+          </ul>
+          <h3><b>Dosage:</b></h3>
+          <ul>
+            <li>1-2 Capsules 2 times a day</li>
+          </ul>
+          Or Directed by physician
+          <h3><b>Presentation: </b></h3>
+          <ul>
+            <li>(6 x 10) Blister pack</li>
+            <li>60 caps Container pack</li>
+            <li>1000 Jar</li>
+          </ul>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <app-product-list></app-product-list>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

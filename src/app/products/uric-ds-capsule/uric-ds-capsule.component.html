@@ -1,0 +1,95 @@
+<div style="padding: 50px;" fxLayout fxLayoutGap="50px" fxHide.lt-md>
+  <div>
+    <app-product-list></app-product-list>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img src="\assets\Images\Products\uric-ds.jpg" />
+        </section>
+        <section>
+          <H1>Uric-DS capsule</H1>
+          <b>
+            Advanced Uric Acid Support
+            <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Helps to stop Gout attacks quickly & effectively</li>
+            <li>Works to fight Pain and reduce Inflammation.</li>
+            <li>Helps in preventing future gout attacks</li>
+            <li>Helps the body to excel uric acid naturally</li>
+            <li>Restores and protects the joints</li>
+          </ul>
+          <h3><b>Dosage: </b></h3>
+          <ul>
+            <li>1-2 Capsules 2 times a day</li>
+          </ul>
+          Or Directed by physician
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div fxHide.gt-md>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <mat-card class="mob" fxLayoutAlign="center">
+      <mat-card-content>
+        <section fxLayoutAlign="center">
+          <img
+            style="width: 200px; height: 200px;"
+            src="\assets\Images\Products\uric-ds.jpg"
+          />
+        </section>
+        <br /><br />
+        <section>
+          <H1>Uric-DS capsule</H1>
+          <b>
+            Advanced Uric Acid Support
+            <br /> </b
+          ><br /><br />
+          <h3><b> Benefits:</b></h3>
+          <ul>
+            <li>Helps to stop Gout attacks quickly & effectively</li>
+            <li>Works to fight Pain and reduce Inflammation.</li>
+            <li>Helps in preventing future gout attacks</li>
+            <li>Helps the body to excel uric acid naturally</li>
+            <li>Restores and protects the joints</li>
+          </ul>
+          <h3><b>Dosage: </b></h3>
+          <ul>
+            <li>1-2 Capsules 2 times a day</li>
+          </ul>
+          Or Directed by physician
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <button mat-raised-button color="primary" (click)="onclick()">
+            Add To Cart
+          </button>
+        </section>
+        <section
+          style="padding: 30px;"
+          fxLayoutAlign="center"
+          fxLayoutGap="30px"
+        >
+          <app-product-list></app-product-list>
+        </section>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
