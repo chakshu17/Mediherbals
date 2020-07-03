@@ -1,0 +1,13 @@
+<h1 style="font-family: cursive; font-size: 45px;">Cart</h1>
+<p *ngFor="let cart of card">
+  <mat-card>
+    <mat-card-content>
+      Name:{{ cart.name }} <br />Quantity: {{ cart.quantity }}<br />
+      Price: {{ cart.price }}
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="warn" (click)="remove(cart.name)"> Remove</button>
+      </mat-card-actions>
+  </mat-card>
+</p>
+<button> Buy Now</button>
