@@ -11,9 +11,11 @@ import { UricDsCapsuleComponent } from './products/uric-ds-capsule/uric-ds-capsu
 import { HepaLivDsSyrupComponent } from './products/hepa-liv-ds-syrup/hepa-liv-ds-syrup.component';
 import { ProstocareCapsuleComponent } from './products/prostocare-capsule/prostocare-capsule.component';
 import { NaveDanLepComponent } from './products/nave-dan-lep/nave-dan-lep.component';
+import { HomepageComponent } from './home/homepage/homepage.component';
 
 
 const routes: Routes = [
+  {path: 'home', component: HomepageComponent},
   { path: 'tulsiamrit', component: TulsiAmritComponent },
   { path: 'cart', component: CartComponent },
   { path: 'zomocidSyrup', component:  ZomocidSyrupComponent },

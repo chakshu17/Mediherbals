@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +21,8 @@ import { TulsiAmritComponent } from './products/tulsi-amrit/tulsi-amrit.componen
 import { TulsiDsCoughSyrupComponent } from './products/tulsi-ds-cough-syrup/tulsi-ds-cough-syrup.component';
 import { UricDsCapsuleComponent } from './products/uric-ds-capsule/uric-ds-capsule.component';
 import { ZomocidSyrupComponent } from './products/zomocid-syrup/zomocid-syrup.component';
+import { HomepageComponent } from './home/homepage/homepage.component';
+import { HeaderComponent } from './toolbar/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +38,8 @@ import { ZomocidSyrupComponent } from './products/zomocid-syrup/zomocid-syrup.co
     TulsiDsCoughSyrupComponent,
     UricDsCapsuleComponent,
     ZomocidSyrupComponent,
+    HomepageComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,9 @@ import { ZomocidSyrupComponent } from './products/zomocid-syrup/zomocid-syrup.co
     BrowserAnimationsModule,
     MatCardModule,
     FlexLayoutModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

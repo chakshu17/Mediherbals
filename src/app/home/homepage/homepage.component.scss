@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.center{
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon{
+  position: relative;
+  left: 25%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+mat-card{
+  width: 300px;
+  height: 350px;
+  background-image:radial-gradient(white, rgb(208, 241, 158));
+}
+mat-card-title{
+  text-align: center;
+}
+mat-card-subtitle{
+  text-align: center;
+  font-size: 20px;
+}
