@@ -15,9 +15,12 @@ import { HomepageComponent } from './home/homepage/homepage.component';
 
 
 const routes: Routes = [
-  {path: 'home', component: HomepageComponent},
-  { path: 'tulsiamrit', component: TulsiAmritComponent },
+  {path: 'Home', component: HomepageComponent},
+  {path: '**', component: HomepageComponent},
+
   { path: 'cart', component: CartComponent },
+
+  { path: 'tulsiamrit', component: TulsiAmritComponent },
   { path: 'zomocidSyrup', component:  ZomocidSyrupComponent },
   { path: 'm-ron-syrup', component: MRonSyrupComponent  },
   { path: 'fevertics', component: FeverticSyrupComponent },
